@@ -1,5 +1,3 @@
-# gui
-
 CREATE TABLE item1 (
 item_code INT(5) null,
 item_name VARCHAR(20) null,

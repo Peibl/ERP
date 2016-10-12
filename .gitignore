@@ -1,0 +1,12 @@
+.classpath
+.project
+.settings
+*.log
+pom.properties
+target
+bin/
+src/main/webapp/facebook_pricing/*
+*.csv
+*_metrics.txt
+.idea
+*.iml
