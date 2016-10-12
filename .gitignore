@@ -4,9 +4,10 @@
 *.log
 pom.properties
 target
-bin/
+bin/*
 src/main/webapp/facebook_pricing/*
 *.csv
 *_metrics.txt
 .idea
 *.iml
+*.class
