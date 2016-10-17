@@ -11,3 +11,4 @@ src/main/webapp/facebook_pricing/*
 .idea
 *.iml
 *.class
+/bin/
