@@ -2776,145 +2776,6 @@ public class NewJFrame extends javax.swing.JFrame {
 	}
 
 	private void crearVentanaUpdateItem() {
-		jFrame2.setTitle("Item Data Update");
-		jFrame2.setLocationByPlatform(true);
-		jFrame2.setMinimumSize(new java.awt.Dimension(426, 400));
-		jFrame2.setResizable(false);
-
-		jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-		jLabel5.setText("Item Data");
-
-		jLabel6.setText("Enter Code of item to be updated :");
-
-		jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Enter Data :"));
-
-		jLabel9.setText("Rate :");
-
-		jLabel7.setText("Stock - in - Hand :");
-
-		jLabel10.setText("Item Name :");
-
-		jButton3.setText("Update");
-		jButton3.addActionListener(new java.awt.event.ActionListener() {
-			@Override
-			public void actionPerformed(java.awt.event.ActionEvent evt) {
-				jButton3ActionPerformed(evt);
-			}
-		});
-
-		jButton4.setText("Reset");
-		jButton4.addActionListener(new java.awt.event.ActionListener() {
-			@Override
-			public void actionPerformed(java.awt.event.ActionEvent evt) {
-				jButton4ActionPerformed(evt);
-			}
-		});
-
-		jButton47.setText("Back");
-		jButton47.addActionListener(new java.awt.event.ActionListener() {
-			@Override
-			public void actionPerformed(java.awt.event.ActionEvent evt) {
-				jButton47ActionPerformed(evt);
-			}
-		});
-
-		javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-		jPanel1.setLayout(jPanel1Layout);
-		jPanel1Layout.setHorizontalGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-				.addGroup(jPanel1Layout.createSequentialGroup().addGap(34, 34, 34).addComponent(jButton3)
-						.addGap(50, 50, 50).addComponent(jButton4).addGap(41, 41, 41).addComponent(jButton47)
-						.addContainerGap(52, Short.MAX_VALUE))
-				.addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-						.addGroup(jPanel1Layout.createSequentialGroup().addGap(27, 27, 27)
-								.addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-										.addGroup(jPanel1Layout.createSequentialGroup()
-												.addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 158,
-														javax.swing.GroupLayout.PREFERRED_SIZE)
-												.addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 6,
-														Short.MAX_VALUE)
-												.addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, 141,
-														javax.swing.GroupLayout.PREFERRED_SIZE))
-								.addGroup(jPanel1Layout.createSequentialGroup()
-										.addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 158,
-												javax.swing.GroupLayout.PREFERRED_SIZE)
-										.addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 6,
-												Short.MAX_VALUE)
-										.addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, 141,
-												javax.swing.GroupLayout.PREFERRED_SIZE))
-								.addGroup(jPanel1Layout.createSequentialGroup()
-										.addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 158,
-												javax.swing.GroupLayout.PREFERRED_SIZE)
-										.addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 6,
-												Short.MAX_VALUE)
-										.addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, 141,
-												javax.swing.GroupLayout.PREFERRED_SIZE)))
-								.addGap(28, 28, 28))));
-		jPanel1Layout
-				.setVerticalGroup(
-						jPanel1Layout
-								.createParallelGroup(
-										javax.swing.GroupLayout.Alignment.LEADING)
-								.addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout
-										.createSequentialGroup().addContainerGap(141, Short.MAX_VALUE)
-										.addGroup(jPanel1Layout
-												.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-												.addComponent(jButton3).addComponent(jButton47).addComponent(jButton4))
-						.addContainerGap())
-				.addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-						.addGroup(jPanel1Layout.createSequentialGroup().addContainerGap()
-								.addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-										.addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 24,
-												javax.swing.GroupLayout.PREFERRED_SIZE)
-								.addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE,
-										javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-								.addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-								.addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-										.addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 24,
-												javax.swing.GroupLayout.PREFERRED_SIZE)
-										.addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE,
-												javax.swing.GroupLayout.DEFAULT_SIZE,
-												javax.swing.GroupLayout.PREFERRED_SIZE))
-								.addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-								.addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-										.addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 24,
-												javax.swing.GroupLayout.PREFERRED_SIZE)
-										.addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE,
-												javax.swing.GroupLayout.DEFAULT_SIZE,
-												javax.swing.GroupLayout.PREFERRED_SIZE))
-								.addContainerGap(80, Short.MAX_VALUE))));
-
-		javax.swing.GroupLayout jFrame2Layout = new javax.swing.GroupLayout(jFrame2.getContentPane());
-		jFrame2.getContentPane().setLayout(jFrame2Layout);
-		jFrame2Layout.setHorizontalGroup(jFrame2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-				.addGroup(jFrame2Layout.createSequentialGroup().addGap(28, 28, 28)
-						.addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE,
-								javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-						.addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-						.addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, 167,
-								javax.swing.GroupLayout.PREFERRED_SIZE)
-						.addGap(53, 53, 53))
-				.addGroup(jFrame2Layout.createSequentialGroup().addContainerGap()
-						.addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE,
-								javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-						.addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-				.addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jFrame2Layout.createSequentialGroup()
-						.addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE).addComponent(jLabel5,
-								javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-						.addGap(128, 128, 128)));
-		jFrame2Layout.setVerticalGroup(jFrame2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-				.addGroup(jFrame2Layout.createSequentialGroup().addContainerGap()
-						.addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 24,
-								javax.swing.GroupLayout.PREFERRED_SIZE)
-						.addGap(18, 18, 18)
-						.addGroup(jFrame2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-								.addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 24,
-										javax.swing.GroupLayout.PREFERRED_SIZE)
-								.addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE,
-										javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-						.addGap(39, 39, 39)
-						.addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE,
-								javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-						.addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)));
 	}
 
 	private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jMenuItem1ActionPerformed
@@ -2971,49 +2832,6 @@ public class NewJFrame extends javax.swing.JFrame {
 	private void jMenu1ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jMenu1ActionPerformed
 		// TODO add your handling code here:
 	}// GEN-LAST:event_jMenu1ActionPerformed
-
-	private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jButton3ActionPerformed
-		try {
-			String mk = jTextField7.getText();
-			String ml = jTextField9.getText();
-			String mj = jTextField10.getText();
-			String md = jTextField8.getText();
-			try {
-				Class.forName("com.mysql.jdbc.Driver").newInstance();
-				Connection con = createConnection();
-				Statement stmt = con.createStatement();
-				int bp = JOptionPane.showConfirmDialog(this, "Do you want to update the record ?");
-				if (bp == JOptionPane.YES_OPTION) {
-					String query = "update item1 set item_name = '" + ml + "'and Rate = '" + mj
-							+ "'and Stock_in_hand = '" + md + "'where item_code = '" + mk + "';";
-					stmt.execute(query);
-					JOptionPane.showMessageDialog(this, "Record has been updated");
-				}
-				if (bp == JOptionPane.CANCEL_OPTION) {
-					jFrame2.dispose();
-					jFrame2.setVisible(true);
-				}
-				if (bp == JOptionPane.NO_OPTION) {
-					jFrame2.dispose();
-					jFrame2.setVisible(true);
-				}
-				stmt.close();
-				con.close();
-
-			} catch (Exception e) {
-				JOptionPane.showMessageDialog(this, "Error in connectivity");
-			}
-		} catch (Exception e) {
-			JOptionPane.showMessageDialog(null, "Invalid Entry", "message", 2);
-		} // TODO add your handling code here:
-	}// GEN-LAST:event_jButton3ActionPerformed
-
-	private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jButton4ActionPerformed
-		jTextField8.setText(null);
-		jTextField7.setText(null);
-		jTextField10.setText(null);
-		jTextField9.setText(null); // TODO add your handling code here:
-	}// GEN-LAST:event_jButton4ActionPerformed
 
 	private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jMenuItem3ActionPerformed
 		jFrame3.dispose();
@@ -4089,10 +3907,6 @@ public class NewJFrame extends javax.swing.JFrame {
 	private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jButton46ActionPerformed
 		jFrame1.setVisible(false); // TODO add your handling code here:
 	}// GEN-LAST:event_jButton46ActionPerformed
-
-	private void jButton47ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jButton47ActionPerformed
-		jFrame2.setVisible(false); // TODO add your handling code here:
-	}// GEN-LAST:event_jButton47ActionPerformed
 
 	private void jButton48ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jButton48ActionPerformed
 		jFrame3.setVisible(false); // TODO add your handling code here:
