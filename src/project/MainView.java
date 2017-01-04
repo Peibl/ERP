@@ -21,12 +21,12 @@ import javax.swing.table.DefaultTableModel;
 
 import com.mysql.jdbc.Connection;
 
-public class NewJFrame extends javax.swing.JFrame {
+public class MainView extends javax.swing.JFrame {
 
 	private static final long serialVersionUID = -6497222191567909124L;
 
 	/** Creates new form NewJFrame */
-	public NewJFrame() {
+	public MainView() {
 		initComponents();
 	}
 
@@ -54,17 +54,14 @@ public class NewJFrame extends javax.swing.JFrame {
 		jButton2 = new javax.swing.JButton();
 		jButton46 = new javax.swing.JButton();
 		jFrame2 = new javax.swing.JFrame();
-		jTextField7 = new javax.swing.JTextField();
 		jLabel5 = new javax.swing.JLabel();
 		jLabel6 = new javax.swing.JLabel();
 		jPanel1 = new javax.swing.JPanel();
-		jTextField8 = new javax.swing.JTextField();
 		jLabel9 = new javax.swing.JLabel();
 		jLabel7 = new javax.swing.JLabel();
 		jLabel10 = new javax.swing.JLabel();
 		jButton3 = new javax.swing.JButton();
 		jButton4 = new javax.swing.JButton();
-		jTextField9 = new javax.swing.JTextField();
 		jTextField10 = new javax.swing.JTextField();
 		jButton47 = new javax.swing.JButton();
 		jFrame3 = new javax.swing.JFrame();
@@ -3949,7 +3946,7 @@ public class NewJFrame extends javax.swing.JFrame {
 		java.awt.EventQueue.invokeLater(new Runnable() {
 			@Override
 			public void run() {
-				new NewJFrame().setVisible(true);
+				new MainView().setVisible(true);
 			}
 		});
 	}
@@ -4225,9 +4222,6 @@ public class NewJFrame extends javax.swing.JFrame {
 	private javax.swing.JTextField jTextField50;
 	private javax.swing.JTextField jTextField51;
 	private javax.swing.JTextField jTextField6;
-	private javax.swing.JTextField jTextField7;
-	private javax.swing.JTextField jTextField8;
-	private javax.swing.JTextField jTextField9;
 	private javax.swing.JTable ups;
 	private javax.swing.JTable ups1;
 	private javax.swing.JTable ups2;
